@@ -12,7 +12,8 @@ import java.time.LocalDate;
 @Entity
 public class Todo {
     @Id
-     private Long id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
     private String title;
     private String description;

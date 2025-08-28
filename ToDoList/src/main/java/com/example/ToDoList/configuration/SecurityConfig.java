@@ -1,6 +1,6 @@
-package com.example.ToDoList.Config;
+package com.example.ToDoList.configuration;
 
-import com.example.ToDoList.Service.UserDetailsServiceImpl;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

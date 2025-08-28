@@ -9,7 +9,7 @@ import java.util.Date;
 
 @Component
 public class JwtUtils {
-    private final String jwtSecret = "mySecretKeyForJwtTokenMustBeLongEnough12345"; // Replace with env var
+    private final String jwtSecret = "mySecretKeyForJwtTokenMustBeLongEnough12345"; // must be 32+ chars
     private final long jwtExpirationMs = 86400000; // 1 day
 
     private final Key key = Keys.hmacShaKeyFor(jwtSecret.getBytes());

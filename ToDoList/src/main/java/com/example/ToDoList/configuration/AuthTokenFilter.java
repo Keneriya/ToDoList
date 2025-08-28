@@ -1,6 +1,5 @@
 package com.example.ToDoList.configuration;
 
-import com.example.ToDoList.Service.UserDetailsServiceImpl;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
