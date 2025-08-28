@@ -2,6 +2,7 @@ package com.example.ToDoList.Controller;
 
 import com.example.ToDoList.Config.JwtUtils;
 import com.example.ToDoList.DTO.AuthDtos;
+import com.example.ToDoList.Dto.AuthDtos;
 import com.example.ToDoList.Model.Role;
 import com.example.ToDoList.Model.User;
 import com.example.ToDoList.Repository.UserRepository;
